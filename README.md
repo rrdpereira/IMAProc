@@ -76,6 +76,22 @@ After the ground truth shape split, the training process used the ***train.shp**
   <img height=200px src="./docs/11_classified_transparency.PNG" />
 </p>
 
+And the following confusion matrix results:
+``` sh
+Random Forest Classification Classified.tif file is Done!
+min: 0; max: 7; min: 6.727359035372302e-05;
+[[12  0  0  0  0  0  1]
+ [ 0 14  0  0  2  0  0]
+ [ 0  0  5  2  0  0  0]
+ [ 0  5  3 12  0  0  0]
+ [ 0  0  0  0 10  0  0]
+ [ 0  0  0  0  0 14  1]
+ [ 0  0  1  0  1  0  8]]
+[12 14  5 12 10 14  8]
+[12 19  9 14 13 14 10]
+[1.0 0.73684211 0.55555556 0.85714286 0.76923077 1.0 0.8]
+```
+
 ## 08 - References
 
  * https://naip-usdaonline.hub.arcgis.com/
